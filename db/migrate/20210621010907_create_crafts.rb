@@ -5,11 +5,11 @@ class CreateCrafts < ActiveRecord::Migration[6.1]
       t.string :description
       t.date :date_started
       t.date :date_completed
-      t.boolean :for_sale
       t.float :price
       t.date :date_sold
-      t.string :type
+      t.string :craft_type
       t.string :notes
+      t.string :image_url
 
       t.timestamps
     end
