@@ -10,21 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_21_012412) do
+ActiveRecord::Schema.define(version: 2021_06_21_010907) do
 
   create_table "crafts", force: :cascade do |t|
     t.string "name"
     t.string "description"
     t.date "date_started"
     t.date "date_completed"
-    t.boolean "for_sale"
     t.float "price"
     t.date "date_sold"
-    t.string "type"
+    t.string "craft_type"
     t.string "notes"
+    t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "image_url"
   end
 
 end
