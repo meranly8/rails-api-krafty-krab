@@ -14,4 +14,8 @@ class CraftSerializer
   attribute :inventory do |craft|
     craft.date_completed != nil ? true : false
   end
+
+  attribute :sold do |craft|
+    craft.date_sold != nil ? true : false
+  end
 end
