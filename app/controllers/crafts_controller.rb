@@ -13,6 +13,12 @@ class CraftsController < ApplicationController
         end
     end
 
+    def destroy
+        craft = Craft.find_by(id: params[:id])
+        craft.destroy
+        render json: {message: "Deletion complete"}
+    end
+
     private
         def craft_params
             params.require(:craft).permit(:name, :craft_type, :description, :date_started, :date_completed, :date_sold, :price, :notes, :image_url)
