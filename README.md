@@ -1,24 +1,35 @@
-# README
+# Krafty Krab Rails API
+## About
+API back-end holding collection of Craft backlog, work in progress, inventory, and sold. To be used with the [react-redux-krafty-krab](https://github.com/meranly8/react-redux-krafty-krab) React front-end application to view, add, and delete crafts. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
+In terminal, in appropriate directory, clone the code & cd into  directory.
+```ruby
+git clone git@github.com:meranly8/rails-api-krafty-krab.git
+cd rails-api-krafty-krab
+```
 
-Things you may want to cover:
+## Usage
+Launch API using terminal by calling
+```ruby
+rails s
+```
 
-* Ruby version
+If using with front-end, start API on a different port, so front-end will run on 3000.
+```ruby
+rails s -p 3001
+```
 
-* System dependencies
+Navigate to [localhost:3000/](http://localhost:3000/)
 
-* Configuration
+## Support
+If an issue arises, please open an issue and assign it to meranly8\
+[Open New Issue for react-redux-krafty-krab](https://github.com/meranly8/react-redux-krafty-krab/issues/new)
 
-* Database creation
+## Contribution
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or add.
 
-* Database initialization
+## License
+[MIT License](https://choosealicense.com/licenses/mit/)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Copyright (c) 2021 Michelle Ranly
