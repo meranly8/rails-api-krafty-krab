@@ -21,6 +21,6 @@ class CraftsController < ApplicationController
 
     private
         def craft_params
-            params.require(:craft).permit(:name, :craft_type, :description, :date_started, :date_completed, :date_sold, :price, :notes, :image_url)
+            params.require(:craft).permit(:name, :craft_type, :description, :date_started, :date_completed, :date_sold, :price, :image_url)
         end
 end
