@@ -1,7 +1,7 @@
 class CraftSerializer
   include FastJsonapi::ObjectSerializer
   
-  attributes :name, :craft_type, :description, :date_started, :date_completed, :price, :date_sold, :notes, :image_url
+  attributes :name, :craft_type, :description, :date_started, :date_completed, :price, :date_sold, :image_url
   
   attribute :date_started do |craft|
     craft.date_started != nil ? craft.date_started.strftime("%m/%d/%Y") : nil
