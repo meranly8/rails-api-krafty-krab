@@ -20,7 +20,7 @@ If using with front-end, start API on a different port, so front-end will run on
 rails s -p 3001
 ```
 
-Navigate to [localhost:3000/](http://localhost:3000/)
+Navigate to [localhost:3000/crafts](http://localhost:3000/crafts)
 
 ## Support
 If an issue arises, please open an issue and assign it to meranly8\
