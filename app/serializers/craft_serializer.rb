@@ -20,11 +20,11 @@ class CraftSerializer
   end
   
   attribute :backlog do |craft|
-    craft.date_started == nil ? true : false
+    craft.date_started == nil && craft.date_completed == nil && craft.date_sold == nil ? true : false
   end
 
   attribute :wip do |craft|
-    craft.date_completed == nil && craft.date_started != nil ? true : false
+    craft.date_started != nil && craft.date_completed == nil &&  craft.date_sold == nil ? true : false
   end
 
   attribute :inventory do |craft|
