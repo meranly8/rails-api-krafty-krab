@@ -2,6 +2,10 @@
 ## About
 API back-end holding collection of Craft backlog, work in progress, inventory, and sold. To be used with the [react-redux-krafty-krab](https://github.com/meranly8/react-redux-krafty-krab) React front-end application to view, add, and delete crafts. 
 
+![nasty patty][logo]
+
+[logo]: https://i.imgur.com/QslmyARl.jpg "Nasty Patty Embroidery"
+
 ## Installation
 In terminal, in appropriate directory, clone the code & cd into  directory.
 ```ruby
@@ -20,7 +24,7 @@ If using with front-end, start API on a different port, so front-end will run on
 rails s -p 3001
 ```
 
-Navigate to [localhost:3000/crafts](http://localhost:3000/crafts)
+Navigate to [localhost:3000/](http://localhost:3000/)
 
 ## Support
 If an issue arises, please open an issue and assign it to meranly8\
